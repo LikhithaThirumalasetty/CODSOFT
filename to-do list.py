@@ -1,10 +1,11 @@
-# Solution 1: Basic Approach Using a While Loop and List Operations
 
 # Initialize an empty list to store tasks
 tasks = []
 
 # Function to display the available options
 def display_menu():
+    print("\nTo-Do List Application")
+    print("Choose an option:")
     print("\n1. Add Task")
     print("2. Edit Task")
     print("3. Delete Task")
@@ -80,4 +81,5 @@ while True:
 
     # Handle invalid menu choices
     else:
+
         print("Invalid choice. Please select a valid option.")
